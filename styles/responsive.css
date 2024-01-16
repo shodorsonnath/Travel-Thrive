@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    /* design for footer section */
+    .footer {
+        margin-top: 50px;
+        padding: 40px 0;
+       
+      }
+      
+      .footer .footer-logo-container img {
+        width: 35px;
+      }
+      
+      .footer .footer-logo-container h3 {
+        color: #131318;
+        font-size: 26px;
+        font-weight: 800;
+      }
+      
+      #text-thrive {
+        color: #ff5400;
+      }
+      
+      .footer .footer-description {
+        color: #5a5a5d;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      
+      .footer .footer-icon-container img {
+        padding-bottom: 24px;
+        width: 150px;
+      }
+      
+      .footer .footer-line {
+        width: 335px;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.1);
+      }
+      
+      .footer .footer-copyright-text p {
+        color: #131318;
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 24px;
+      }
+      
+    
+}
