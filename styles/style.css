@@ -108,8 +108,7 @@
 
 /* footer section style */
 .footer {
-  /* background: rgba(19, 19, 24, 0.05); */
-  background: rgb(106, 106, 245);
+  background: rgba(19, 19, 24, 0.05);
   margin-top: 80px;
   padding: 80px 0;
   display: flex;
