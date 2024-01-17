@@ -1,8 +1,53 @@
 @media screen and (max-width: 600px) {
+  
+  /* why choose us section design */
+  .why-choose-us .choose-us-text {
+    margin-top: 40px;
+  }
+  
+  .why-choose-us .choose-us-text h2 {
+    font-size: 28px;
+  }
+  
+  .why-choose-us .choose-us-text p {
+    font-size: 14px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+  .why-choose-us .choose-us-card .choose-us-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .why-choose-us .choose-us-card .choose-us-card-container .card1 {
+    width: 335px;
+  }
+  
+  
+  .why-choose-us .choose-us-card .choose-us-card-container .card2 {
+    width: 335px;
+  }
+  
+  .why-choose-us .choose-us-card .card3 {
+    width: 335px;
+  }
+  
+  .why-choose-us .choose-us-card .choose-us-card-heading{
+    font-size: 20px;
+  }
+  
+  .why-choose-us .choose-us-card .choose-us-card-description{
+    font-size: 14px;
+  }
+
   /* signup section design */
   /* newsletter part */
   .sign-up-section {
     flex-direction: column;
+    margin-top: 50px;
   }
 
   .sign-up-section .newsletter-part {
@@ -43,8 +88,8 @@
   .sign-up-section .newsletter-image-part .travel-discount {
     width: 200px;
     height: 80px;
-    right: 35px;
-    top: 620px;
+    right: 15px;
+    top: 180px;
   }
 
   .sign-up-section .newsletter-image-part .travel-discount p {

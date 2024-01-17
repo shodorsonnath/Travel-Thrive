@@ -4,6 +4,108 @@
   font-family: "Mulish", sans-serif;
   margin: 0;
 }
+
+/* why choose us section design */
+.why-choose-us .choose-us-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.why-choose-us .choose-us-text h2 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.why-choose-us .choose-us-text p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.why-choose-us .choose-us-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-container .card1 {
+  border-radius: 16px;
+  /* border: 1px solid rgb(205, 109, 0);
+  background: rgb(240, 163, 75); */
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  width: 400px;
+  height: 180px;
+  padding-top: 28px;
+  padding-left: 28px;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-container .card1 img{
+  width: 50px;
+  padding-bottom: 14px;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-container .card2 {
+  border-radius: 16px;
+  /* border: 1px solid rgb(205, 109, 0);
+  background: rgb(240, 163, 75); */
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 400px;
+  height: 180px;
+  padding-top: 28px;
+  padding-left: 28px;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-container .card2 img{
+  width: 50px;
+  padding-bottom: 14px;
+}
+
+.why-choose-us .choose-us-card .card3 {
+  border-radius: 16px;
+  /* border: 1px solid rgb(205, 109, 0);
+  background: rgb(240, 163, 75); */
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  width: 400px;
+  height: 180px;
+  padding-top: 28px;
+  padding-left: 28px;
+  margin-top: 20px;
+}
+
+.why-choose-us .choose-us-card .card3 img{
+  width: 50px;
+  padding-bottom: 14px;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-heading{
+  color: #131318;
+  font-size: 22px;
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+
+.why-choose-us .choose-us-card .choose-us-card-description{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 /* signup section design */
 /* newsletter part */
 .sign-up-section {
@@ -77,6 +179,10 @@
   height: 365px;
 }
 
+.sign-up-section .newsletter-image-part {
+  position: relative;
+}
+
 .sign-up-section .newsletter-image-part .travel-discount {
   border-radius: 16px;
   background: #ff5400;
@@ -88,8 +194,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 210px;
-  top: 300px;
+  right: 10px;
+  top: 215px;
 }
 
 .sign-up-section .newsletter-image-part .travel-discount p {
