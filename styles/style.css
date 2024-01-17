@@ -258,6 +258,88 @@
   padding-bottom: 20px;
 }
 
+.choose-your-destination .destination-place-image-container1 img,
+.choose-your-destination .destination-place-image-container2 img,
+.choose-your-destination .destination-place-image-container3 img {
+  position: relative;
+}
+
+.choose-your-destination .destination-place-image-container1,
+.choose-your-destination .destination-place-image-container2,
+.choose-your-destination .destination-place-image-container3 {
+  position: relative;
+}
+
+.choose-your-destination .destination-place-image-container1 .image-text1 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.choose-your-destination .destination-place-image-container1 .image-text2 {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.choose-your-destination .destination-place-image-container2 .image-text3 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.choose-your-destination .destination-place-image-container2 .image-text4 {
+  position: absolute;
+  top: 40%;
+  left: 46%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.choose-your-destination .destination-place-image-container2 .image-text5 {
+  position: absolute;
+  top: 40%;
+  left: 84%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.choose-your-destination .destination-place-image-container3 .image-text6 {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.choose-your-destination .destination-place-image-container3 .image-text7 {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
 /* bonus section visa processing desing */
 .visa-processing .visa-processing-text-content {
   margin-top: 80px;

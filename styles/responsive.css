@@ -37,7 +37,6 @@
     left: 0;
   }
 
-
   /* Explore your travel section desing */
 .banner {
   margin: 10px auto;
@@ -151,6 +150,41 @@
   width: 335px;
   height: 176px;
   padding-bottom: 16px;
+}
+
+.choose-your-destination .destination-place-image-container1 .image-text1 {
+  top: 16%;
+  left: 32%;
+}
+
+.choose-your-destination .destination-place-image-container1 .image-text2 {
+  top: 70%;
+  left: 32%;
+}
+
+.choose-your-destination .destination-place-image-container2 .image-text3 {
+  top: 12%;
+  left: 32%;
+}
+
+.choose-your-destination .destination-place-image-container2 .image-text4 {
+  top: 45%;
+  left: 22%;
+}
+
+.choose-your-destination .destination-place-image-container2 .image-text5 {
+  top: 80%;
+  left: 36%;
+}
+
+.choose-your-destination .destination-place-image-container3 .image-text6 {
+  top: 20%;
+  left: 28%;
+}
+
+.choose-your-destination .destination-place-image-container3 .image-text7 {
+  top: 70%;
+  left: 32%;
 }
 
 /* bonus section visa processing desing */
