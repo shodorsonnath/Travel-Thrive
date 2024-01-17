@@ -4,6 +4,46 @@
   font-family: "Mulish", sans-serif;
   margin: 0;
 }
+
+/* Our popular tours section design */
+.our-popular-tours{
+  margin-top: 80px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-popular-tours .popular-tours-text-content h2{
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.our-popular-tours .popular-tours-text-content p{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 14px;
+}
+
+.our-popular-tours .popular-tours-text-content .read-more-button{
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.our-popular-tours .popular-tours-image-content img{
+  height: 520px;
+}
+
 /* choose your destination section design */
 .choose-your-destination .destination-text-content{
   display: flex;
