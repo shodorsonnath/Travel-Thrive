@@ -1,10 +1,49 @@
 @media screen and (max-width: 600px) {
 
+  /* navbar design */
+  .nav-container .nav-item-container .checkbtn {
+    display: block;
+  }
+
+  .nav-container .nav-item-container ul {
+    position: fixed;
+    width: 100%;
+    background: #2c3e50;
+    top: 90px;
+    left: 100%;
+    text-align: center;
+    flex-direction: column;
+    transition: left 0.3s ease;
+    padding-bottom: 30px;
+  }
+
+  .nav-container .nav-item-container ul.show-menu {
+    left: 0;
+  }
+
+  .nav-container .nav-item-container ul li {
+    display: block;
+  }
+
+  .nav-container .nav-item-container ul li a {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-right: 90px;
+    
+  }
+
+  #check:checked + .checkbtn ~ ul {
+    left: 0;
+  }
+
+
   /* Explore your travel section desing */
 .banner {
-  margin: 30px auto;
+  margin: 10px auto;
   height: 483px;
   width: 335px;
+  margin-bottom: 30px;
 }
 
 .banner .banner-text-content h1 {
