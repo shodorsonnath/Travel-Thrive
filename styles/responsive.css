@@ -1,5 +1,35 @@
 @media screen and (max-width: 600px) {
 
+  /* Explore your travel section desing */
+.banner {
+  margin: 30px auto;
+  height: 483px;
+  width: 335px;
+}
+
+.banner .banner-text-content h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.banner .banner-text-content p {
+  font-size: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px
+}
+
+.banner .where-go-content {
+  display: flex;
+  width: 270px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-left: 16px;
+}
+
   /* Our popular tours section design */
 .our-popular-tours{
   margin-top: 40px;
@@ -21,7 +51,6 @@
   font-size: 14px;
   
 }
-
 
 .our-popular-tours .popular-tours-image-content img{
   width: 335px;
